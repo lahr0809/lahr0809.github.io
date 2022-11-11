@@ -191,18 +191,22 @@ input, select, textarea {
 		font-size: 0.8em;
 	}
 	.grid-card{
-		display: flex;	
-		justify-content: space-around;
+		display: flex;
+		gap: 10px;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
 	}
 	.card{
 		background-color:#132f4c;
 		border: 1px solid #1e4976;
 		border-radius: 10px;
 		color: #fff;
-		padding:13px;
-		width: -webkit-fill-available;
+		padding:11px;
 		margin: 15px;
 		display: flex;
+		width: 190px;
+		height: fit-content;
 	  }
 	  .card p{
 		 font-size: 0.875rem;
