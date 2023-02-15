@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #iframe {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+        .full_screen_iframe {
+            position: absolute;
+            width: 100%;
+            top: 0px;
+            left: 0px;
+            z-index: 99;
+            height: 100vh;
+            position: fixed;
+        }
+
+        .boton_full_screen {
+            position: relative;
+            float: right;
+            margin-top: 5px;
+            left: -20px;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+        }
+
+        .boton_full_screen svg {
+            height: 25px;
+            padding: 2px;
+            color: white;
+            background: #eb4d4b;
+        }
+
+        /*boton_full_screen*/
+        .btn_quitar_full_screen {
+            position: absolute;
+            top: 30px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.246);
+            background: rgba(0, 0, 0, 0.5);
+            border: none;
+            right: 30px;
+            position: fixed;
+            z-index: 999;
+            display: none;
+            cursor: pointer;
+        }
+
+        .btn_quitar_full_screen svg {
+            height: 25px;
+            color: white;
+        }
+        .container{
+            width: 50%;
+            height: 355px;
+        }
+
+    </style>
+</head>
+<body>
+    <button id="btnspn" onclick="loadChanel('casaaasasss.today/espn.html')">ESPN</button>
+    <button id="btnfox" onclick="loadChanel('casaaasasss.today/foxarg.html')">FOX SPORTS</button>
+        <button class="btn_quitar_full_screen" onclick="btn_quitar_full_screen()" id="btn_quitar_full_screen">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"></path>
+            </svg>
+        </button>
+        <div class="container">
+            <iframe allow="autoplay *; encrypted-media *;" frame="" id="iframe" src="https://www.softzone.es/app/uploads-softzone.es/2019/10/Aplicaciones-IPTV-Windows.jpg?x=620&y=350&quality=40" frameborder="0">
+            </iframe>
+            <button class="boton_full_screen" id="boton_full_screen" onclick="boton_full_screen()">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"></path>
+                </svg>
+            </button>
+        </div>
+      
+        <script>
+            const loadChanel = (chanel)=>{
+                     document.getElementById("iframe").src = "https://" + chanel;
+            }
+            function boton_full_screen() {
+                document.getElementById("boton_full_screen").style =
+                    "display:none";
+                document.getElementById(
+                    "btn_quitar_full_screen"
+                ).style = "display:block";
+                document
+                    .getElementById("iframe")
+                    .classList.add("full_screen_iframe");
+                document.documentElement.requestFullscreen();
+            }
+            function btn_quitar_full_screen() {
+                document.getElementById("boton_full_screen").style =
+                    "display:block";
+                document.getElementById(
+                    "btn_quitar_full_screen"
+                ).style = "display:none";
+
+                document
+                    .getElementById("iframe")
+                    .classList.remove("full_screen_iframe");
+                document.exitFullscreen();
+            }
+        </script>
+</body>
+</html>
