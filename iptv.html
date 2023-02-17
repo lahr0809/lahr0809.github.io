@@ -83,7 +83,7 @@ td{
     padding: 2px;
 }
 table{
-    width: 50%;
+    width: 100%;
 }
 .container{
     width: 50%;
@@ -102,16 +102,22 @@ li{
 #boton_full_screen{
     background: #4b58eb;
 }
+        .content-table{
+        height: 80vh;
+        width: 50%
+        }
     </style>
 </head>
 <body>
     <section>
+        <div class="content-table">
  <table id="list"></table>
+        </div>
  <div class="container">
     <iframe allow="autoplay *; encrypted-media *;" frame="" id="iframe" src="https://casaaasasss.today/espn.html" frameborder="0">
     </iframe>
    
-<div style="display: flex;margin-left: 15px;margin-top:20px;justify-content: center;">
+<div style="display: flex;margin-left: 15px;margin-top:10px;justify-content: center;">
     <button id="btnspn" onclick="loadChanel('casaaasasss.today/espn.html')">ESPN</button>
     <button id="btnspn" onclick="loadChanel('casaaasasss.today/r.html?id=1100')">ESPN 2</button>
     <button id="btnfox" onclick="loadChanel('casaaasasss.today/foxarg.html')">FOX SPORTS</button>
