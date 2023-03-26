@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iptv</title>
     <style>
-        body{
+        body {
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             color: #fff;
             background: black;
         }
+
         .full_screen_iframe {
             position: absolute;
             width: 100%;
@@ -57,83 +59,164 @@
             height: 25px;
             color: white;
         }
-button{
-    background: #eb4d4b;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    padding: 8px;
-    margin-right: 4px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-button:hover{
-background: black;
-background: #4b58eb;
-}
 
-table, td{
-  border: 1px solid #eb4d4b;
-  border-collapse: collapse;
-}
-th{
-    background: #07139a;
-}
-td{
-    padding: 2px;
-}
-table{
-    width: 100%;
-}
-.container{
-    width: 50%;
-}
-#iframe{
-    display: block;
+        button {
+            background: #C62828;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 8px;
+            margin-right: 4px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: black;
+            background: #4b58eb;
+        }
+
+        table,
+        td {
+            border: 1px solid #eb4d4b;
+            border-collapse: collapse;
+        }
+
+        th {
+            background: #07139a;
+        }
+
+        td {
+            padding: 2px;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        .container {
+            width: 50%;
+        }
+
+        #iframe {
+            display: block;
             width: 100%;
             height: 100%;
-}
-section{
-    display: flex;
-}
-li{
-    list-style: none;
-}
-#boton_full_screen{
-    background: #4b58eb;
-}
-        .content-table{
-        height: 80vh;
-        width: 50%
         }
+
+        section {
+            display: flex;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        #boton_full_screen {
+            background: #4b58eb;
+        }
+  #content-table{
+    height: 80vh;
+    width: 50%;
+   }
+
+   /*ACORDION*/
+   .accordionTitle {
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+   background: #263238;
+   margin: 1px;
+   padding: 5px 10px;
+   color: #E0E0E0;
+   border-radius: 3px;
+    display: grid;
+    grid-template-columns: 62px 1fr 97px;;
+    cursor: pointer;
+    text-align: left;
+    margin-top: 1px;
+    transition: 0.5s;
+}
+.accordionContent{
+    padding: 8px;
+}
+.accordionTitle + .accordionContent {
+  display: none;
+}
+.is-open{
+  background: #C62828 !important;
+}
+.accordionTitle.is-open + .accordionContent {
+  display: block;
+}
+.juego{
+    display: grid;
+}
+.juego h3{
+margin: 0px;
+}
+.hora_canales{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.accordionItem{
+    margin-bottom: 3px;
+}
+   /*END ACORDION*/
     </style>
+
 </head>
+
 <body>
     <section>
-        <div class="content-table">
- <table id="list"></table>
-        </div>
- <div class="container">
-    <iframe allow="autoplay *; encrypted-media *;" frame="" id="iframe" src="https://embdased.iptvrayo.com/espn.html" frameborder="0">
-    </iframe>
-   
-<div style="display: flex;margin-left: 15px;justify-content: center;">
-    <button id="btnspn" onclick="loadChanel('embdased.iptvrayo.com/espn.html')">ESPN</button>
-    <button id="btnspn" onclick="loadChanel('embdased.iptvrayo.com/r.html?id=1100')">ESPN 2</button>
-    <button id="btnfox" onclick="loadChanel('embdased.iptvrayo.com/foxarg.html')">FOX SPORTS</button>
-    <button id="btnwin" onclick="loadChanel('embdased.iptvrayo.com/win.html')">WIN SPORTS +</button>
-    <button id="btntnt" onclick="loadChanel('embdased.iptvrayo.com/tnt.html')">TNT SPORTS</button>
-    <button id="btntnt" onclick="loadChanel('embdased.iptvrayo.com/r.html?id=1060')">DSPORTS</button>
-    <button id="boton_full_screen" onclick="boton_full_screen()">FULL SCREEN</button>
-</div>
+   <div id="content-table"></div>
 
-<button class="btn_quitar_full_screen" onclick="btn_quitar_full_screen()" id="btn_quitar_full_screen">
-    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"></path>
-    </svg>
-</button>
-</div>
-</section>
-    <script src="/assets/main.js"></script>
+        <div class="container">
+            <iframe allow="autoplay *; encrypted-media *;" frame="" id="iframe"
+                src="https://iptvrayoa.com/espn.html"
+                frameborder="0">
+            </iframe>
+
+            <div style="display: flex;margin-left: 15px;justify-content: center;">
+                <button id="btnspn" onclick="loadChanel('iptvrayoa.com/espn.html')">ESPN</button>
+                <button id="btnspn" onclick="loadChanel('iptvrayoa.com/r.html?id=1100')">ESPN 2</button>
+                <button id="btnfox" onclick="loadChanel('iptvrayoa.com/foxarg.html')">FOX SPORTS</button>
+                <button id="btnwin" onclick="loadChanel('iptvrayoa.com/win.html')">WIN SPORTS +</button>
+                <button id="btntnt" onclick="loadChanel('iptvrayoa.com/tnt.html')">TNT SPORTS</button>
+                <button id="btntnt" onclick="loadChanel('iptvrayoa.com/r.html?id=1060')">DSPORTS</button>
+                <button id="boton_full_screen" onclick="boton_full_screen()">FULL SCREEN</button>
+            </div>
+
+            <button class="btn_quitar_full_screen" onclick="btn_quitar_full_screen()" id="btn_quitar_full_screen">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4">
+                    </path>
+                </svg>
+            </button>
+        </div>
+    </section>
+    
+    <script src="./main.js"></script>
 </body>
+<script>
+function myFunction(e) {
+   let accordionTitle = document.getElementById(e);
+
+    if (accordionTitle.classList.contains("is-open")) {
+        accordionTitle.classList.remove("is-open");
+    
+}else{
+    const accordionTitlesWithIsOpen = document.querySelectorAll(".is-open");
+      accordionTitlesWithIsOpen.forEach((accordionTitleWithIsOpen) => {
+        accordionTitleWithIsOpen.classList.remove("is-open");
+      });
+      accordionTitle.classList.add("is-open");
+}
+}
+ </script>
 </html>
