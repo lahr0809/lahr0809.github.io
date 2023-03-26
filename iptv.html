@@ -73,25 +73,7 @@
 
         button:hover {
             background: black;
-            background: #4b58eb;
-        }
-
-        table,
-        td {
-            border: 1px solid #eb4d4b;
-            border-collapse: collapse;
-        }
-
-        th {
-            background: #07139a;
-        }
-
-        td {
-            padding: 2px;
-        }
-
-        table {
-            width: 100%;
+            background: #607d8b;
         }
 
         .container {
@@ -107,19 +89,39 @@
         section {
             display: flex;
         }
-
-        li {
-            list-style: none;
-        }
-
         #boton_full_screen {
-            background: #4b58eb;
+            background: #607d8b;
         }
   #content-table{
-    height: 80vh;
+    height: 90vh;
     width: 50%;
+    overflow-y: auto;
    }
+   #content-table::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
 
+#content-table::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+#content-table::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+#content-table::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+#content-table::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 20px;
+    border: 2px solid #263238;
+}
+
+#content-tables::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
    /*ACORDION*/
    .accordionTitle {
   cursor: pointer;
@@ -133,7 +135,7 @@
    color: #E0E0E0;
    border-radius: 3px;
     display: grid;
-    grid-template-columns: 62px 1fr 97px;;
+    grid-template-columns: 91px 1fr 97px;;
     cursor: pointer;
     text-align: left;
     margin-top: 1px;
@@ -158,12 +160,21 @@
 margin: 0px;
 }
 .hora_canales{
-    display: flex;
-    justify-content: flex-start;
+    display: grid;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+}
+.num_canales{
+    display: inline-block;
+    text-align: center;
 }
 .accordionItem{
     margin-bottom: 3px;
+}
+.icon{
+    width: 23px;
+    color: #c62828;
 }
    /*END ACORDION*/
     </style>
@@ -201,7 +212,7 @@ margin: 0px;
         </div>
     </section>
     
-    <script src="/assets/main.js"></script>
+    <script src="./main.js"></script>
 </body>
 <script>
 function myFunction(e) {
