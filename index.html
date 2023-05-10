@@ -11,6 +11,7 @@
 	<link rel="manifest" href="images/favicon/site.webmanifest">
 	<script src="https://kit.fontawesome.com/17296784a6.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="https://sorgalla.com/lity/dist/lity.css">
 	<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0SFD3QNGMQ"></script>
 <script>
@@ -32,7 +33,7 @@
 			<div id="logo">
 				<span class="image avatar48"><img src="images/PerfilCircular.png" alt="" /></span>
 				<h1 id="title">Luis Hernández</h1>
-				<p>Front-end Developer</p>
+				<p>Webmaster</p>
 			</div>
 
 			<!-- Nav -->
@@ -83,9 +84,7 @@
 						</span>&nbsp;&nbsp;
 						<span class="icon brands fa-whatsapp"> &nbsp;<strong> (+57) 3012781665</strong></span><br>
 						<a href="/assets/HV-LUIS-HERNANDEZ.pdf" target="_blank">Mi hoja de vida la puedes ver aquí</a>
-					<p>Me considero una persona responsable, dinámica y con deseos de superación; aprendo con rapidez y
-						me intereso por cumplir de manera adecuada y con puntualidad las actividades que realizo. En
-						constante capacitación de formación para ir de la mano con las nuevas tecnologías.</p>
+					<p>Como Webmaster, cuento con experiencia en el desarrollo, diseño y mantenimiento de sitios web. Tengo habilidades en lenguajes de programación como HTML, CSS, JavaScript, PHP y en plataformas de gestión de contenidos como WordPress y DNN.</p>
 					</p>
 				</header>
 
@@ -168,9 +167,9 @@
 				</header>
 				<h2 class="linea" style="text-align: left !important;font-size: larger;"><span>Estudios</span></h2>
 				<div class="certificaciones">
-					<a href="#" class="image featured"><img src="images/diploma.webp" alt="" /></a>
-					<a href="#" class="image featured"><img src="images/Scrum.jpg" alt="" /></a>
-					<a href="#" class="image featured"><img src="images/CertificadoGoogle.jpg" alt="" /></a>
+					<a href="#" class="image featured"><img src="images/diploma.webp" data-lity alt="" /></a>
+					<a href="#" class="image featured"><img src="images/Scrum.jpg" data-lity alt="" /></a>
+					<a href="#" class="image featured"><img src="images/CertificadoGoogle.jpg" data-lity alt="" /></a>
 				</div>
 				<br><br>
 
@@ -246,18 +245,26 @@
 
 				<p>Gracias por contactar, contestaré lo más pronto posible</p>
 
-				<form method="post" action="#">
-					<div class="row">
-						<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Nombre" /></div>
-						<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
-						<div class="col-12">
-							<textarea name="message" placeholder="Mensaje"></textarea>
-						</div>
-						<div class="col-12">
-							<input type="submit" value="Envíar mensaje" />
-						</div>
+				<form id="form" autocomplete="off">
+					<div class="inp-group">
+						<div class="custom-input">
+							<input id="name" name="name" type="text" placeholder="Nombre" required />
+							<label for="Nombre">Nombre</label>
+						  </div>
+					<div class="custom-input">
+					  <input id="email" name="email" type="email" placeholder="Email" required />
+					  <label for="Email">Email</label>
 					</div>
-				</form>
+				  </div>
+				  <textarea  id="message" name="message" rows=3 cols=20 placeholder="Mensaje"></textarea>
+				
+					<button type="submit" id="btn" class="btn">Envíar mensaje<svg class="angle" focusable="false" aria-hidden="true"
+						viewBox="0 0 24 24" data-testid="KeyboardArrowRightRoundedIcon">
+						<path
+						  d="M9.29 15.88 13.17 12 9.29 8.12a.9959.9959 0 0 1 0-1.41c.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z">
+						</path>
+					  </svg></button>
+				  </form>
 
 			</div>
 		</section>
@@ -284,7 +291,11 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-
+	<script src="assets/js/sendMail.js"></script>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.3/sweetalert2.all.min.js"
+    integrity="sha512-/iBgV43zPirSC0tue+PT/1VHGs7En24twBmT+sVMgn9PTaOpKfbgIyL5YsGKlbAIxcwz9S8W/YEnYjpIYj2Axw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://sorgalla.com/lity/dist/lity.js"></script>
 </body>
 
 </html>
