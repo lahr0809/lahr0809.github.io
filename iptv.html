@@ -176,7 +176,34 @@ margin: 0px;
     width: 23px;
     color: #c62828;
 }
+.fix-channel{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: wrap;
+}
    /*END ACORDION*/
+@media screen and (max-width: 600px) {
+ #iframe {
+    height: 25vh;
+   }
+    .fix-channel{
+    margin-left: 0;
+}
+    .container {
+    width: 100%;
+}
+    #content-table {
+    height: 25vh;
+    width: 100%;
+    margin-top: 5px;
+}
+    section {
+    flex-direction: column-reverse;
+}
+}
+        
     </style>
 
 </head>
@@ -187,11 +214,11 @@ margin: 0px;
 
         <div class="container">
             <iframe allow="autoplay *; encrypted-media *;" frame="" id="iframe"
-                src="https://iptvrayoa.com/espn.html"
+                src="https://casadelfutbol.tv/player/espn.php"
                 frameborder="0">
             </iframe>
 
-            <div style="display: flex;margin-left: 15px;justify-content: center;">
+            <div class='fix-channel'>
                 <button id="btnspn" onclick="loadChanel('iptvrayoa.com/espn.html')">ESPN</button>
                 <button id="btnspn" onclick="loadChanel('iptvrayoa.com/r.html?id=1100')">ESPN 2</button>
                 <button id="btnfox" onclick="loadChanel('iptvrayoa.com/foxarg.html')">FOX SPORTS</button>
