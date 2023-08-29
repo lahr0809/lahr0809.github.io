@@ -1,7 +1,7 @@
 {
     "theme_color": "#000",
     "background_color": "#263238",
-    "display": "fullscreen",
+    "display": "standalone",
     "scope": "/",
     "start_url": "https://lahr0809.github.io/iptv",
     "name": "IPTV App",
