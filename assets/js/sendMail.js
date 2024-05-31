@@ -7,7 +7,8 @@
           });
           const asyncPostCall = async (data) => {
             try {
-              const response = await fetch('https://script.google.com/macros/s/AKfycbyaIRlcU_KconK8sPp1ghcpcd56Xmun3t8joZPpKX9sS6dxvUb5UBUJx5SujuRSzC9z/exec', {
+              const response = await fetch('https://script.google.com/macros/s/AKfycbyMv2mzLQopLuuq1wGMCBwx6JX_0qHJawo6jArj7b0Snw5yLUWJKB4qWi12YAUq9ZuF/exec', {
+                mode: 'no-cors' 
                 method: 'POST',
                 headers: {
                     'Content-Type': "application/json",
