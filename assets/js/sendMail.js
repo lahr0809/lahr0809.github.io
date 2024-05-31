@@ -2,13 +2,11 @@
             e.preventDefault();
             data = Object.fromEntries(new FormData(e.target));
             asyncPostCall(data);
-            //const convert = JSON.stringify(data);
-            //console.log(data.nombre + ' ' + data.apellidos)
           });
           const asyncPostCall = async (data) => {
             try {
               const response = await fetch('https://script.google.com/macros/s/AKfycbyMv2mzLQopLuuq1wGMCBwx6JX_0qHJawo6jArj7b0Snw5yLUWJKB4qWi12YAUq9ZuF/exec', {
-                mode: 'no-cors' 
+                mode:  'no-cors',
                 method: 'POST',
                 headers: {
                     'Content-Type': "application/json",
