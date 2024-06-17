@@ -1,3 +1,5 @@
 #EXTM3U
 #EXTINF:-1 tvg-type="movie" tvg-logo="http://url_of_poster.jpg" group-title="Action Movies",Movie Title
 https://hfs280.serversicuro.cc/hls/,dnzpenom27g4a3gyvbph5oznyeofdjggks5pa4gibeuflcfzw5yijjopcyza,.urlset/master.m3u8
+#EXTINF:-1 tvg-type="movie" tvg-logo="http://url_of_poster.jpg" group-title="Action Movies",El planeta de los simios
+https://hfs280.serversicuro.cc/hls/dnzpenom27g4a3gyvbph5oznyeofdjggks5pa4gibeuflcfzw5yijjopcyza/iframes-v1-a1.m3u8
