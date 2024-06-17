@@ -50,5 +50,5 @@ https://hfs264.serversicuro.cc/hls/,dnzpecm427g4a3gyvbox5lzrrjq6rektsrucwo7ikuoj
 #EXTINF:-1 tvg-type="movie" group-title="Peliculas", El reino del planeta de los simios 2024
 https://hfs280.serversicuro.cc/hls/,dnzpenom27g4a3gyvbph5oznyeofdjggks5pa4gibeuflcfzw5yijjopcyza,.urlset/master.m3u8
 
-#EXTINF:0 tvg-type="movie" group-title="Peliculas", El misterio
+#EXTINF:-1 tvg-logo="https://cdn.ome.lt/extras/capas/ligaPosterNacional.jpg" tvg-type="movie" group-title="Peliculas", El misterio
 https://hfs276.serversicuro.cc/hls/,dnzpf46w27g4a3gyvbph5lb3tw6hsx4i7dk3kmg4cdyzylzzbblilo7xxzpq,.urlset/master.m3u8
