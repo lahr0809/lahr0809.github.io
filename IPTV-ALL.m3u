@@ -40,11 +40,13 @@ https://linear-507.frequency.stream/mt/studio/507/hls/master/playlist.m3u8
 https://linear-506.frequency.stream/mt/studio/506/hls/master/playlist.m3u8
 #EXTINF:-1 group-title="Deportes", LMB: INTERNETV DEPORTES
 https://thm-it-roku.otteravision.com/thm/it/it.m3u8
+#EXTINF:-1 group-title="Deportes", WIN+
+https://n3.dramaticreadings.com:7066/hls/col2024.m3u8?md5=6QkQH3n3JMODnyKDQl5hPA&expires=1718641723
 
 
 
 ********************** Peliculas ************************
 #EXTINF:-1 tvg-type="movie" tvg-logo="https://repelishd.cam/uploads/mini/cuimage/90/cbc61f53bc2aba15bc208595cd3ac5.jpg" group-title="Peliculas", I.S.S.
 https://hfs264.serversicuro.cc/hls/,dnzpecm427g4a3gyvbox5lzrrjq6rektsrucwo7ikuojuka4n43b4xobnbmq,.urlset/master.m3u8
-#EXTINF:-1 tvg-type="movie" tvg-logo="https://telechancho.github.io/telechancho-iptv/movielogos/The_Super_Mario_Bros_Movie_logo.png" group-title="Peliculas", Super Mario Bros. La pelicula
-http://ia902704.us.archive.org/24/items/X3N7N29N/SMABSP23.mkv
+#EXTINF:-1 tvg-type="movie" tvg-logo="https://repelishd.cam/uploads/mini/cuimage/38/6ea6f2517be5bd62ec318dfd31cf29.jpg" group-title="Peliculas", El reino del planeta de los simios 2024
+https://hfs280.serversicuro.cc/hls/,dnzpenom27g4a3gyvbph5oznyeofdjggks5pa4gibeuflcfzw5yijjopcyza,.urlset/master.m3u8
