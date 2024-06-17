@@ -40,7 +40,8 @@ http://179.1.132.203:8000/play/a034/index.m3u8
 http://186.148.163.18:8000/play/a043/index.m3u8
 #EXTINF:-1 group-title="Deportes", LMB: INTERNETV DEPORTES
 https://thm-it-roku.otteravision.com/thm/it/it.m3u8
-
+EXTINF:0 tvg-id=»ButacaTV» tvg-logo=»http://imgfz.com/i/WsFZcKn.png» group-title=»Cine»,ButacaTV
+https://veranda-butacatv-1-es.samsung.wurl.tv/2000.m3u8
 
 ********************** Peliculas ************************
 
