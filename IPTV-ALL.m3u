@@ -1,6 +1,3 @@
 #EXTM3U
-
-#EXTINF:-1 tvg-type="movie" tvg-logo="https://repelishd.cam/uploads/mini/cuimage/90/cbc61f53bc2aba15bc208595cd3ac5.jpg" group-title="Peliculas", I.S.S.
-https://hfs280.serversicuro.cc/hls/dnzpenom27g4a3gyvbph5oznyeofdjggks5pa4gibeuflcfzw5yijjopcyza/index-v1-a1.m3u8
-#EXTINF:-1 tvg-type="movie" tvg-logo="https://procinal.com/uploads/PELICULAS/Img_movies/Img_360x500/360%20X%20500%20elplanetadelossimios.jpg" group-title="Peliculas", Plt
+#EXTINF:-1, El reino del planeta de los simios
 https://hfs280.serversicuro.cc/hls/,dnzpenom27g4a3gyvbph5oznyeofdjggks5pa4gibeuflcfzw5yijjopcyza,.urlset/master.m3u8
