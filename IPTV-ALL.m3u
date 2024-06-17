@@ -40,6 +40,8 @@ https://linear-507.frequency.stream/mt/studio/507/hls/master/playlist.m3u8
 https://linear-506.frequency.stream/mt/studio/506/hls/master/playlist.m3u8
 #EXTINF:-1 group-title="Deportes", LMB: INTERNETV DEPORTES
 https://thm-it-roku.otteravision.com/thm/it/it.m3u8
+#EXTINF:-1 group-title="Deportes", DirecTv Sport
+https://n1.dramaticreadings.com:7066/hls/dsportshd.m3u8?md5=Szv-wMHtqASn0uV3C1XlMA&expires=1718646444
 
 
 ********************** Peliculas ************************
