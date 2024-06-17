@@ -11,14 +11,19 @@
 
 #EXTINF:-1 group-title="Latinos", CO: CARACOL
 http://tv.proyectox.vip:8080/joserojas1/ctacfZsrzw/59848
+
 #EXTINF:-1 group-title="Latinos", CO: CARACOL EXT
 http://tv.proyectox.vip:8080/joserojas1/ctacfZsrzw/115772
+
 #EXTINF:-1 group-title="Latinos", CO: RCN
 http://tv.proyectox.vip:8080/joserojas1/ctacfZsrzw/59852
+
 #EXTINF:-1 group-title="Latinos", MX: TUDN
 https://i.mjh.nz/SamsungTVPlus/USBD1700016X9.m3u8
+
 #EXTINF:-1 group-title="Latinos", CL: TVN
 https://bcovlive-a.akamaihd.net/74f665e9ff8447639d4de4b8b458d8ae/us-east-1/6058004209001/playlist_dvr.m3u8
+
 #EXTINF:-1 group-title="Latinos", CR: Repretel 6
 https://alba-cr-repretel-c6.stream.mediatiquestream.com/index.m3u8
 
@@ -26,19 +31,24 @@ https://alba-cr-repretel-c6.stream.mediatiquestream.com/index.m3u8
 
 #EXTINF:-1 group-title="Deportes", ESPN CH1
 http://170.82.37.21:8000/play/a04g/index.m3u8
+
 #EXTINF:-1 group-title="Deportes", ESPN CH2
 http://181.78.8.90:16123/play/ch16
+
 #EXTINF:-1 group-title="Deportes", SKY
 http://181.78.105.146:2000/play/a08m/index.m3u8
+
 #EXTINF:-1 group-title="Deportes", LA LIGA 01
 https://linear-507.frequency.stream/mt/studio/507/hls/master/playlist.m3u8
+
 #EXTINF:-1 group-title="Deportes", LA LIGA 02
 https://linear-506.frequency.stream/mt/studio/506/hls/master/playlist.m3u8
+
 #EXTINF:-1 group-title="Deportes", Win
 http://179.1.132.203:8000/play/a034/index.m3u8
+
 #EXTINF:-1 group-title="Deportes", Win+
 http://186.148.163.18:8000/play/a043/index.m3u8
-#EXTINF:-1 group-title="Deportes", LMB: INTERNETV DEPORTES
 
 ********************** Peliculas ************************
 
