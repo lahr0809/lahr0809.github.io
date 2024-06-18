@@ -34,4 +34,4 @@ Si deseas clonar y ejecutar este portafolio localmente, sigue estos pasos:
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/lahr0809/lahr0809.github.git
+   git clone https://github.com/lahr0809/lahr0809.github.io
