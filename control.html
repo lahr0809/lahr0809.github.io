@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Control Remoto Demo</title>
+</head>
+<body>
+    <h1>Control Remoto Demo</h1>
+    <p>Presiona los botones del control remoto para interactuar.</p>
+    <div id="status">Press a button on the remote</div>
+
+    <script>
+        // Función para manejar eventos del control remoto
+        function handleRemoteControl(event) {
+            const status = document.getElementById('status');
+            switch(event.key) {
+                case "ArrowUp":
+                    // Lógica para desplazarse hacia arriba
+                    status.textContent = "Flecha arriba presionada";
+                    break;
+                case "ArrowDown":
+                    // Lógica para desplazarse hacia abajo
+                    status.textContent = "Flecha abajo presionada";
+                    break;
+                case "Enter":
+                    // Lógica para seleccionar un elemento
+                    status.textContent = "Botón de selección presionado";
+                    break;
+                case "Back":
+                    // Lógica para retroceder
+                    status.textContent = "Botón de retroceso presionado";
+                    break;
+                default:
+                    // Otros casos no manejados
+                    status.textContent = "Evento no reconocido";
+            }
+        }
+
+        // Agregar un escuchador de eventos para el control remoto
+        document.addEventListener("keydown", handleRemoteControl);
+    </script>
+</body>
+</html>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #EXTM3U
 
 ************************  17/JUN/2024  ESTA LISTA ES DE USO PARTICULAR - NO SE VENDE Y NO TIENE UN SERVIDOR PROPIO ****************************
@@ -66,3 +67,73 @@ https://hfs266.serversicuro.cc/hls/,dnzpeee427g4a3gyvbox5nrwyx4yzx4tumfturntyhfe
 
 #EXTINF:-1 tvg-logo="https://cdn.ome.lt/extras/capas/ligaPosterNacional.jpg" tvg-type="movie" group-title="Peliculas", El misterio
 https://hfs276.serversicuro.cc/hls/,dnzpf46w27g4a3gyvbph5lb3tw6hsx4i7dk3kmg4cdyzylzzbblilo7xxzpq,.urlset/master.m3u8
+=======
+#EXTM3U
+
+************************  17/JUN/2024  ESTA LISTA ES DE USO PARTICULAR - NO SE VENDE Y NO TIENE UN SERVIDOR PROPIO ****************************
+************************    TODOS LOS LINKS SE ENCUENTRAN EN INTERNET Y SON DE DOMINIO PUBLICO  ***********************************************
+***********************************************************************************************************************************************
+************************ HI, THIS IS A PUBLIC LIST THAT I COLLECT IN MY SPARE TIME AS A HOBBY. *************************************************
+************************ FEEL FREE TO FORK OR TAKE WHATEVER YOU WANT. I HOPE YOU USE IT WISELY. ***********************************************
+************************ THIS IPTV LINK IS FOR YOUR OWN USE, NOT FOR SALE. THANK YOU.  ********************************************************
+
+******************* Latinos *******************
+
+#EXTINF:-1 group-title="Latinos", CO: CARACOL
+http://tv.proyectox.vip:8080/joserojas1/ctacfZsrzw/59848
+
+#EXTINF:-1 group-title="Latinos", CO: CARACOL EXT
+http://tv.proyectox.vip:8080/joserojas1/ctacfZsrzw/115772
+
+#EXTINF:-1 group-title="Latinos", CO: RCN
+http://tv.proyectox.vip:8080/joserojas1/ctacfZsrzw/59852
+
+#EXTINF:-1 group-title="Latinos", MX: TUDN
+https://i.mjh.nz/SamsungTVPlus/USBD1700016X9.m3u8
+
+#EXTINF:-1 group-title="Latinos", CL: TVN
+https://bcovlive-a.akamaihd.net/74f665e9ff8447639d4de4b8b458d8ae/us-east-1/6058004209001/playlist_dvr.m3u8
+
+#EXTINF:-1 group-title="Latinos", CR: Repretel 6
+https://alba-cr-repretel-c6.stream.mediatiquestream.com/index.m3u8
+
+******************* Deportes *******************
+
+#EXTINF:-1 group-title="Deportes", ESPN CH1
+http://170.82.37.21:8000/play/a04g/index.m3u8
+
+#EXTINF:-1 group-title="Deportes", ESPN CH2
+http://181.78.8.90:16123/play/ch16
+
+#EXTINF:-1 group-title="Deportes",FOX SPORTS 2
+http://181.78.8.90:16123/play/ch20
+
+#EXTINF:-1 group-title="Deportes", SKY
+http://181.78.105.146:2000/play/a08m/index.m3u8
+
+#EXTINF:-1 group-title="Deportes", LA LIGA 01
+https://linear-507.frequency.stream/mt/studio/507/hls/master/playlist.m3u8
+
+#EXTINF:-1 group-title="Deportes", LA LIGA 02
+https://linear-506.frequency.stream/mt/studio/506/hls/master/playlist.m3u8
+
+#EXTINF:-1 group-title="Deportes", Win
+http://179.1.132.203:8000/play/a034/index.m3u8
+
+#EXTINF:-1 group-title="Deportes", Win+
+http://186.148.163.18:8000/play/a043/index.m3u8
+
+********************** Peliculas ************************
+
+#EXTINF:-1 tvg-type="movie" group-title="Peliculas", I.S.S.
+https://hfs264.serversicuro.cc/hls/,dnzpecm427g4a3gyvbox5lzrrjq6rektsrucwo7ikuojuka4n43b4xobnbmq,.urlset/master.m3u8
+
+#EXTINF:-1 tvg-type="movie" group-title="Peliculas", El reino del planeta de los simios 2024
+https://hfs280.serversicuro.cc/hls/,dnzpenom27g4a3gyvbph5oznyeofdjggks5pa4gibeuflcfzw5yijjopcyza,.urlset/master.m3u8
+
+#EXTINF:-1 tvg-type="movie" group-title="Peliculas", Godzilla y Kong: El nuevo imperio
+https://hfs266.serversicuro.cc/hls/,dnzpeee427g4a3gyvbox5nrwyx4yzx4tumfturntyhfe7cvsga34volhfzyq,.urlset/master.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.ome.lt/extras/capas/ligaPosterNacional.jpg" tvg-type="movie" group-title="Peliculas", El misterio
+https://hfs276.serversicuro.cc/hls/,dnzpf46w27g4a3gyvbph5lb3tw6hsx4i7dk3kmg4cdyzylzzbblilo7xxzpq,.urlset/master.m3u8
+>>>>>>> 5387a9e6223d0d3619cb5cebefa66f078269d102

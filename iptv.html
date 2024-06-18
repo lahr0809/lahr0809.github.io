@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
     <title>Iptv</title>
     <style>
         body {
@@ -66,7 +67,7 @@
             border: none;
             border-radius: 6px;
             padding: 8px;
-            margin-right: 4px;
+            margin: 2px;
             cursor: pointer;
             transition: 0.3s;
         }
@@ -84,6 +85,7 @@
             display: block;
             width: 100%;
             height: 100%;
+            border-radius: 10px;
         }
 
         section {
@@ -133,7 +135,7 @@
    margin: 1px;
    padding: 5px 10px;
    color: #E0E0E0;
-   border-radius: 3px;
+   border-radius: 8px;
     display: grid;
     grid-template-columns: 91px 1fr 97px;;
     cursor: pointer;
@@ -176,7 +178,40 @@ margin: 0px;
     width: 23px;
     color: #c62828;
 }
+.fix-channel{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: wrap;
+}
    /*END ACORDION*/
+@media screen and (max-width: 600px) {
+ #iframe {
+    height: 25vh;
+   }
+    .fix-channel{
+    margin-left: 0;
+}
+    .container {
+    width: 100%;
+    height: 35vh;
+    justify-content: center;
+    display: grid;
+    align-items: center;
+    padding-bottom: 3px;
+}
+    #content-table {
+    height: calc(63vh - 3px);
+    width: 100%;
+}
+
+    section {
+    flex-direction: column-reverse;
+}
+}
+        
     </style>
 
 </head>
@@ -187,17 +222,17 @@ margin: 0px;
 
         <div class="container">
             <iframe allow="autoplay *; encrypted-media *;" frame="" id="iframe"
-                src="https://iptvrayoa.com/espn.html"
+                src="https://tucanaldeportivo.com/winmas.php"
                 frameborder="0">
             </iframe>
 
-            <div style="display: flex;margin-left: 15px;justify-content: center;">
-                <button id="btnspn" onclick="loadChanel('iptvrayoa.com/espn.html')">ESPN</button>
-                <button id="btnspn" onclick="loadChanel('iptvrayoa.com/r.html?id=1100')">ESPN 2</button>
-                <button id="btnfox" onclick="loadChanel('iptvrayoa.com/foxarg.html')">FOX SPORTS</button>
-                <button id="btnwin" onclick="loadChanel('iptvrayoa.com/win.html')">WIN SPORTS +</button>
-                <button id="btntnt" onclick="loadChanel('iptvrayoa.com/tnt.html')">TNT SPORTS</button>
-                <button id="btntnt" onclick="loadChanel('iptvrayoa.com/r.html?id=1060')">DSPORTS</button>
+            <div class='fix-channel'>
+                <button id="btnspn" onclick="loadChanel('directatvhd.me/Star+.php')">ESPN</button>
+                <button id="btnspn" onclick="loadChanel('casadelfutbol.tv/player/espn2.php')">ESPN 2</button>
+                <button id="btnfox" onclick="loadChanel('casadelfutbol.tv/player/fox.php')">FOX SPORTS</button>
+                <button id="btnwin" onclick="loadChanel('tucanaldeportivo.com/winmas.php')">WIN SPORTS +</button>
+                <button id="btntnt" onclick="loadChanel('casadelfutbol.tv/player/espnextra.php')">ESPN EXTRA</button>
+                <button id="btntnt" onclick="loadChanel('casadelfutbol.tv/player/directv.php')">DSPORTS</button>
                 <button id="boton_full_screen" onclick="boton_full_screen()">FULL SCREEN</button>
             </div>
 
