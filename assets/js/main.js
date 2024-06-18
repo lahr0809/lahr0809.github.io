@@ -33,7 +33,12 @@ document.querySelector('#form').addEventListener('submit', e => {
 		body: JSON.stringify(data),
 	});
 	if (!response.ok) {
-		Swal.fire('Mensaje enviado!', 'Responderé lo más pronto posible.');
+		Swal.fire({
+			icon: "success",
+			title: "Mensaje enviado!', 'Responderé lo más pronto posible.",
+			showConfirmButton: false,
+			timer: 1500
+		  });
 		document.querySelector('#form').reset();
 	  }
 
