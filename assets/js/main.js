@@ -46,3 +46,19 @@ document.querySelector('#form').addEventListener('submit', e => {
 	  console.log(error)
 	}
   }
+
+
+
+  var slider = document.getElementById('wrapper');
+  var start = true;
+
+window.myFunction = function() {
+    let brand=slider.getElementsByClassName('brands-brand')[0];
+    if(start)brand.style.marginLeft = '-280px';
+    else{
+      slider.appendChild(brand);
+      brand.style.marginLeft = '0px';
+      slider.getElementsByClassName('brands-brand')[0].style.marginLeft = '-280px';
+    }
+    start=false;
+}
