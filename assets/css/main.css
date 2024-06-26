@@ -602,7 +602,7 @@ text-align: left;
 margin-bottom: 15px;
 }
 .brands-wrapper{
-	overflow: scroll;
+	overflow: scroll !important;
 }
 }
 
