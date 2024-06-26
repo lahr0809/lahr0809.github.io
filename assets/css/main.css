@@ -601,6 +601,9 @@ text-align: left;
 .work{
 margin-bottom: 15px;
 }
+.brands-wrapper{
+	overflow: scroll;
+}
 }
 
 /* Medium devices such as tablets (768px and 1024px) */
