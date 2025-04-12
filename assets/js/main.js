@@ -23,7 +23,7 @@ document.querySelector('#form').addEventListener('submit', e => {
   });
   const asyncPostCall = async (data) => {
 	try {
-	  const response = await fetch('https://script.google.com/macros/s/AKfycbyMv2mzLQopLuuq1wGMCBwx6JX_0qHJawo6jArj7b0Snw5yLUWJKB4qWi12YAUq9ZuF/exec', {
+	  const response = await fetch('https://n8n.netxlogic.com/webhook/frmcontact', {
 		mode:  'no-cors',
 		method: 'POST',
 		headers: {
